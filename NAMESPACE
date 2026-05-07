@@ -1,0 +1,6 @@
+export(make_mapfun_auto)
+export(resolve_species)
+export(species_table)
+importFrom(AnnotationDbi, select)
+importFrom(AnnotationDbi, mapIds)
+import(Orthology.eg.db)
