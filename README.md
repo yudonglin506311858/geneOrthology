@@ -5,12 +5,11 @@ An R package for cross-species gene orthology mapping.
 ```r
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("https://github.com/yudonglin506311858/geneOrthology")
-```r
-
-
 
 install.packages('geneOrthology.tar.gz', repos = NULL, type = 'source')
 
+## USAGE
+```r
 library(geneOrthology)
 library(Orthology.eg.db)
 library(org.Hs.eg.db)
@@ -46,3 +45,7 @@ head(result)
 dim(result)
 write.csv(result,"convertHumanToMouse.csv")
 
+
+
+
+## Install
