@@ -7,6 +7,7 @@ if (!require("devtools")) install.packages("devtools")
 devtools::install_github("https://github.com/yudonglin506311858/geneOrthology")
 
 install.packages('geneOrthology.tar.gz', repos = NULL, type = 'source')
+```
 
 ## USAGE
 ```r
@@ -44,7 +45,7 @@ result <- mapfun(z)
 head(result)
 dim(result)
 write.csv(result,"convertHumanToMouse.csv")
-
+```
 
 
 
