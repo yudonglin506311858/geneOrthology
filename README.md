@@ -9,6 +9,8 @@ devtools::install_github("https://github.com/yudonglin506311858/geneOrthology")
 install.packages('geneOrthology.tar.gz', repos = NULL, type = 'source')
 ```
 
+<img width="1071" height="470" alt="image" src="https://github.com/user-attachments/assets/223a4b79-94a9-4b3c-8d37-42b482b2d703" />
+
 ## Usage
 ```r
 library(geneOrthology)
