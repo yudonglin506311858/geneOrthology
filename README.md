@@ -9,7 +9,7 @@ devtools::install_github("https://github.com/yudonglin506311858/geneOrthology")
 install.packages('geneOrthology.tar.gz', repos = NULL, type = 'source')
 ```
 
-## USAGE
+## Usage
 ```r
 library(geneOrthology)
 library(Orthology.eg.db)
@@ -46,9 +46,10 @@ head(result)
 dim(result)
 write.csv(result,"convertHumanToMouse.csv")
 ```
+
+## Results
+
 <img width="816" height="675" alt="image" src="https://github.com/user-attachments/assets/4f466a18-5e55-49d2-8d15-9b0b3c31e459" />
 
 <img width="615" height="741" alt="image" src="https://github.com/user-attachments/assets/26b64da2-1a5b-4492-9610-91c03c1d1a3f" />
 
-
-## Install
