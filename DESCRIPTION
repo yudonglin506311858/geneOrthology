@@ -1,0 +1,16 @@
+Package: geneOrthology
+Title: Gene Orthology Mapping Between Species
+Version: 1.0.0
+Authors@R: person(given = "DONGLIN", family = "YU", email = "yudonglin@stu.pku.edu.cn", role = c("aut", "cre"))
+Description: Provides automatic orthology mapping between gene symbols across 37 species using Orthology.eg.db and organismdbi packages.
+Depends: R (>= 3.5.0)
+Imports:
+    AnnotationDbi,
+    Orthology.eg.db
+Suggests:
+    org.Hs.eg.db,
+    org.Mm.eg.db
+License: MIT
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.3.0
